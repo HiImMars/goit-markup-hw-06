@@ -625,15 +625,12 @@ button {
   color: var(--light-text-color);
 }
 
-.footer-label-btn-wrapper {
+.footer-subscribe-form {
   display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 24px;
 }
 
 .footer-subscribe-input {
-  margin-right: 24px;
   padding: 8px 16px;
   width: 264px;
   height: 40px;
@@ -922,7 +919,6 @@ button {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding-left: 38px;
-  font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--primary-text-color);
@@ -981,6 +977,7 @@ button {
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 24px;
+  user-select: none;
 }
 
 .modal-form-check-desc::before {
