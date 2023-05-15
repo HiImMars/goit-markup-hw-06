@@ -899,6 +899,10 @@ button {
   margin-bottom: 8px;
 }
 
+.modal-form-textarea {
+  margin-bottom: 16px;
+}
+
 .modal-form-input-desc {
   display: block;
   font-size: 12px;
@@ -944,6 +948,7 @@ button {
 }
 
 .modal-form-message {
+  display: block;
   width: 100%;
   height: 120px;
   padding: 8px 16px;
@@ -1001,6 +1006,11 @@ button {
 
 .modal-form-check:focus + .modal-form-check-desc::before {
   border-color: #4d5ae5;
+}
+
+.modal-form-link {
+  color: #4d5ae5;
+  line-height: 1.33;
 }
 
 /**
